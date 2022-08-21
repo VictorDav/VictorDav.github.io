@@ -8,8 +8,15 @@
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
+    <div class="overlay" style="position:fixed; z-index: 1;">
+			<div style="flex: true; padding: 1rem;">
+				<ul style="list-style-type: none; ">
+					<li style="float:left; font-family: standart;"><a href="#../../index.html" class="button primary small fit smooth-scroll-middle">Home</a></li>
+				</ul>
+			</div>
+		</div>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=600></canvas>
+      <canvas id="unity-canvas" width=480 height=854></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
