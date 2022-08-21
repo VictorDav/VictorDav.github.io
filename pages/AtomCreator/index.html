@@ -11,7 +11,7 @@
     <div class="overlay" style="position:fixed; z-index: 1;">
 			<div style="flex: true; padding: 1rem;">
 				<ul style="list-style-type: none; ">
-					<li style="float:left; font-family: standart;"><a href="#../../index.html" class="button primary small fit smooth-scroll-middle">Home</a></li>
+					<li style="float:left; font-family: standart;"><a href="../../index.html" class="button primary small fit smooth-scroll-middle">Home</a></li>
 				</ul>
 			</div>
 		</div>
@@ -81,6 +81,9 @@
       // happening inside the engine, and you would instead like to size up
       // the canvas DOM size and WebGL render target sizes yourself.
       // config.matchWebGLToCanvasSize = false;
+
+      canvas.style.width = "480px";
+      canvas.style.height = "854px";
 
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
